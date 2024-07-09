@@ -1,5 +1,5 @@
 ﻿Public Class Form1
-    'Dev By Nopanond
+    'Dev By Nopanond Ch
     Dim RedColor, GreenColor, BlueColor, Transparent As Integer
     Public Function MixColor()
         lblColor.BackColor = Color.FromArgb(Transparent, RedColor, GreenColor, BlueColor)
@@ -23,7 +23,7 @@
         RedColor = 128
         trcRed.Value = RedColor
         lblRed.Text = RedColor
-        lblRed.ForeColor = Color.FromArgb(RedColor, 0, 0)
+
 
         'Green color
         GreenColor = 128
