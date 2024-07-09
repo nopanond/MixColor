@@ -24,6 +24,7 @@
 
     Private Sub trcGreen_Scroll(sender As Object, e As EventArgs) Handles trcGreen.Scroll
         GreenColor = Val(trcGreen.Value)
+        'เปลี่ยนสีตัวอักษร
         lblGreen.Text = GreenColor
         lblGreen.ForeColor = Color.FromArgb(0, GreenColor, 0)
         MixColor()
