@@ -1,0 +1,52 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\Users\\Nopanond\\Documents\\vb-net\\MixColor\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{A4AB9B81-83CE-452B-B555-128C4271093C}|MixColor\\MixColor.vbproj|d:\\users\\nopanond\\documents\\vb-net\\mixcolor\\mixcolor\\form1.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}",
+      "RelativeMoniker": "D:0:0:{A4AB9B81-83CE-452B-B555-128C4271093C}|MixColor\\MixColor.vbproj|solutionrelative:mixcolor\\form1.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A4AB9B81-83CE-452B-B555-128C4271093C}|MixColor\\MixColor.vbproj|D:\\Users\\Nopanond\\Documents\\vb-net\\MixColor\\mixcolor\\form1.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}|Form",
+      "RelativeMoniker": "D:0:0:{A4AB9B81-83CE-452B-B555-128C4271093C}|MixColor\\MixColor.vbproj|solutionrelative:mixcolor\\form1.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}|Form"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Form1.vb",
+              "DocumentMoniker": "D:\\Users\\Nopanond\\Documents\\vb-net\\MixColor\\MixColor\\Form1.vb",
+              "RelativeDocumentMoniker": "MixColor\\Form1.vb",
+              "ToolTip": "D:\\Users\\Nopanond\\Documents\\vb-net\\MixColor\\MixColor\\Form1.vb",
+              "RelativeToolTip": "MixColor\\Form1.vb",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABMAAAALAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003361|",
+              "WhenOpened": "2024-07-08T01:43:51.548Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Form1.vb [Design]",
+              "DocumentMoniker": "D:\\Users\\Nopanond\\Documents\\vb-net\\MixColor\\MixColor\\Form1.vb",
+              "RelativeDocumentMoniker": "MixColor\\Form1.vb",
+              "ToolTip": "D:\\Users\\Nopanond\\Documents\\vb.net\\MixColor\\MixColor\\Form1.vb [Design]",
+              "RelativeToolTip": "..\\..\\vb.net\\MixColor\\MixColor\\Form1.vb [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003361|",
+              "WhenOpened": "2024-07-08T01:37:42.241Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
