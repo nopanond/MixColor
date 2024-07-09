@@ -4,6 +4,7 @@
     Public Function MixColor()
         lblColor.BackColor = Color.FromArgb(Transparent, RedColor, GreenColor, BlueColor)
 
+        'Change ForColor
         If RedColor >= 128 Or GreenColor >= 128 Or BlueColor >= 128 Then
             lblColor.ForeColor = Color.Black
         Else
