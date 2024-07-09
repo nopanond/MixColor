@@ -36,6 +36,10 @@ Partial Class Form1
         Me.trcTransparent = New System.Windows.Forms.TrackBar()
         Me.txtColor = New System.Windows.Forms.TextBox()
         Me.lblColor = New System.Windows.Forms.Label()
+        Me.txtRed = New System.Windows.Forms.TextBox()
+        Me.txtGreen = New System.Windows.Forms.TextBox()
+        Me.txtBlue = New System.Windows.Forms.TextBox()
+        Me.txtTransparent = New System.Windows.Forms.TextBox()
         CType(Me.trcRed, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.trcGreen, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.trcBlue, System.ComponentModel.ISupportInitialize).BeginInit()
@@ -75,6 +79,7 @@ Partial Class Form1
         Me.lblRed.Size = New System.Drawing.Size(26, 29)
         Me.lblRed.TabIndex = 3
         Me.lblRed.Text = "0"
+        Me.lblRed.Visible = False
         '
         'lblGreen
         '
@@ -85,6 +90,7 @@ Partial Class Form1
         Me.lblGreen.Size = New System.Drawing.Size(26, 29)
         Me.lblGreen.TabIndex = 4
         Me.lblGreen.Text = "0"
+        Me.lblGreen.Visible = False
         '
         'lblBlue
         '
@@ -95,6 +101,7 @@ Partial Class Form1
         Me.lblBlue.Size = New System.Drawing.Size(26, 29)
         Me.lblBlue.TabIndex = 5
         Me.lblBlue.Text = "0"
+        Me.lblBlue.Visible = False
         '
         'Label5
         '
@@ -153,6 +160,7 @@ Partial Class Form1
         Me.lblTransparent.Size = New System.Drawing.Size(26, 29)
         Me.lblTransparent.TabIndex = 11
         Me.lblTransparent.Text = "0"
+        Me.lblTransparent.Visible = False
         '
         'trcTransparent
         '
@@ -187,12 +195,52 @@ Partial Class Form1
         Me.lblColor.TabIndex = 14
         Me.lblColor.TextAlign = System.Drawing.ContentAlignment.MiddleCenter
         '
+        'txtRed
+        '
+        Me.txtRed.Font = New System.Drawing.Font("Microsoft Sans Serif", 13.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(222, Byte))
+        Me.txtRed.Location = New System.Drawing.Point(673, 17)
+        Me.txtRed.Name = "txtRed"
+        Me.txtRed.Size = New System.Drawing.Size(88, 34)
+        Me.txtRed.TabIndex = 15
+        Me.txtRed.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
+        '
+        'txtGreen
+        '
+        Me.txtGreen.Font = New System.Drawing.Font("Microsoft Sans Serif", 13.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(222, Byte))
+        Me.txtGreen.Location = New System.Drawing.Point(673, 100)
+        Me.txtGreen.Name = "txtGreen"
+        Me.txtGreen.Size = New System.Drawing.Size(88, 34)
+        Me.txtGreen.TabIndex = 16
+        Me.txtGreen.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
+        '
+        'txtBlue
+        '
+        Me.txtBlue.Font = New System.Drawing.Font("Microsoft Sans Serif", 13.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(222, Byte))
+        Me.txtBlue.Location = New System.Drawing.Point(673, 181)
+        Me.txtBlue.Name = "txtBlue"
+        Me.txtBlue.Size = New System.Drawing.Size(88, 34)
+        Me.txtBlue.TabIndex = 17
+        Me.txtBlue.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
+        '
+        'txtTransparent
+        '
+        Me.txtTransparent.Font = New System.Drawing.Font("Microsoft Sans Serif", 13.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(222, Byte))
+        Me.txtTransparent.Location = New System.Drawing.Point(673, 259)
+        Me.txtTransparent.Name = "txtTransparent"
+        Me.txtTransparent.Size = New System.Drawing.Size(88, 34)
+        Me.txtTransparent.TabIndex = 18
+        Me.txtTransparent.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
+        '
         'Form1
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(8.0!, 16.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.BackColor = System.Drawing.SystemColors.Window
         Me.ClientSize = New System.Drawing.Size(800, 450)
+        Me.Controls.Add(Me.txtTransparent)
+        Me.Controls.Add(Me.txtBlue)
+        Me.Controls.Add(Me.txtGreen)
+        Me.Controls.Add(Me.txtRed)
         Me.Controls.Add(Me.lblColor)
         Me.Controls.Add(Me.txtColor)
         Me.Controls.Add(Me.Label1)
@@ -232,4 +280,8 @@ Partial Class Form1
     Friend WithEvents trcTransparent As TrackBar
     Friend WithEvents txtColor As TextBox
     Friend WithEvents lblColor As Label
+    Friend WithEvents txtRed As TextBox
+    Friend WithEvents txtGreen As TextBox
+    Friend WithEvents txtBlue As TextBox
+    Friend WithEvents txtTransparent As TextBox
 End Class
