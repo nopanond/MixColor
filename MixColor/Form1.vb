@@ -12,6 +12,15 @@
 
         lblColor.Text = "#" & Transparent.ToString("X2") & RedColor.ToString("X2") & GreenColor.ToString("X2") & BlueColor.ToString("X2")
     End Function
+
+
+
+
+
+
+
+
+
     Private Sub trcGreen_Scroll(sender As Object, e As EventArgs) Handles trcGreen.Scroll
         GreenColor = Val(trcGreen.Value)
         lblGreen.Text = GreenColor
