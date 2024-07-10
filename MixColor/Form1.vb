@@ -14,6 +14,13 @@
         lblColor.Text = "#" & Transparent.ToString("X2") & RedColor.ToString("X2") & GreenColor.ToString("X2") & BlueColor.ToString("X2")
     End Function
 
+
+
+
+
+
+
+
     Private Sub trcGreen_Scroll(sender As Object, e As EventArgs) Handles trcGreen.Scroll
         GreenColor = Val(trcGreen.Value)
         lblGreen.Text = GreenColor
@@ -63,8 +70,8 @@
         lblRed.Text = RedColor
         txtRed.Text = RedColor
         trcRed.Value = RedColor
-        lblRed.ForeColor = Color.FromArgb(0, RedColor, 0)
-        txtRed.ForeColor = Color.FromArgb(0, RedColor, 0)
+        lblRed.ForeColor = Color.FromArgb(RedColor, 0, 0)
+        txtRed.ForeColor = Color.FromArgb(RedColor, 0, 0)
         MixColor()
     End Sub
 
@@ -102,8 +109,8 @@
         lblBlue.Text = BlueColor
         txtBlue.Text = BlueColor
         trcBlue.Value = BlueColor
-        lblBlue.ForeColor = Color.FromArgb(0, BlueColor, 0)
-        txtBlue.ForeColor = Color.FromArgb(0, BlueColor, 0)
+        lblBlue.ForeColor = Color.FromArgb(0, 0, BlueColor)
+        txtBlue.ForeColor = Color.FromArgb(0, 0, BlueColor)
         MixColor()
     End Sub
 
