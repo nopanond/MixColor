@@ -87,6 +87,7 @@
         trcGreen.Value = GreenColor
         lblGreen.ForeColor = Color.FromArgb(0, GreenColor, 0)
         txtGreen.ForeColor = Color.FromArgb(0, GreenColor, 0)
+
         MixColor()
     End Sub
 
